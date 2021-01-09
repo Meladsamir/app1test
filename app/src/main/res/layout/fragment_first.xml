@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_rec2" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="45dp">
+
+            <TextView
+                android:id="@+id/myImageViewText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Qarun Lake is considered the oldest natural lakes in the world, the third largest lake in Egypt and the rest of Lake Old Maurice. It is considered an interior lake which is not related to any sea and an area of around 53 thousands acres in Fayoum Down. The lake level ranges between 44.3 meters and 44.8 meters under sea level, and average water depth is about 4.2 meters in total. More than 75% of the area of the lake's depth (2-5), and about 20% of surface-depth (5 to 8) meters.     The lake's main sources of water are from agriculture drainage and domestic wastewater. Qarun Lake, in Arabic language, called Qarun Berka. The lake is fed by two important banks (Albats Bank and the valley Bank) and twelve subsidiary banks. These banks feed the Qarun Lake about 69% of sewage in Fayoum. The lake area is characterized by important geological formations, scientifically and historically, various groups of plants, and migratory birds and residents. It has been discovered mammal fossils date to about 10 millions years, seemed as monkey fossil, and some mold trees."
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
